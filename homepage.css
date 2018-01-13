@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+/* styling for a body tag, applies to everything inside the body of the page 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+*/
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 10s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:15s;
+}
+
+.bg3 {
+  animation-duration:20s;
+}
+
+.content {
+  width: 100%;
+  border-radius:.25em;
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 3000;
+  font-size: 10em;
+  color: #F0F0F0;
+  text-shadow: 3px 3px #585858;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 750;
+  font-size: 5em;
+  color: #E0E0E0;
+  text-shadow: 1.5px 1.5px #585858;
+  transform:translate(0%, -70%);
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+}
+
+#Student:hover {
+  
+
+  
+}

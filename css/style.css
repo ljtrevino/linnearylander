@@ -1,0 +1,107 @@
+body {
+  background: #f2f6f7;
+  text-align: center;
+  padding: 0px;
+}
+
+#scene {
+  display: inline-block;
+  font-size: 0;
+  width: 150%;
+  height:100%;
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+
+#grass {
+  background: green;
+  bottom: 50%;
+  height: 50%;
+}
+
+#water {
+  -webkit-animation: water-animation 3s linear infinite;
+  -moz-animation: water-animation 3s linear infinite;
+  -o-animation: water-animation 3s linear infinite;
+  animation: water-animation 3s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 111.9%;
+  height: 40%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 50;
+}
+#water > span {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: 100%;
+  width: 60px;
+  z-index: 0;
+}
+#water > span:before {
+  -moz-border-radius-topleft: 110px 90px;
+  -webkit-border-top-left-radius: 110px 90px;
+  border-top-left-radius: 110px 90px;
+  -moz-border-radius-topright: 110px 90px;
+  -webkit-border-top-right-radius: 110px 90px;
+  border-top-right-radius: 110px 90px;
+  content: " ";
+  position: absolute;
+  background: #2495c0;
+  bottom: 0;
+  left: -20px;
+  height: 200px;
+  width: 100px;
+  margin-top: 40px;
+  z-index: 1;
+}
+#water > span:after {
+  content: " ";
+  position: absolute;
+  bottom: 45%;
+  left: -320px;
+  width: 0;
+  height: 0px;
+  border-style: solid;
+  border-color: transparent transparent #24a6d6;
+  border-width: 0 350px 100px 350px;
+  z-index: 0;
+}
+
+@-webkit-keyframes water-animation {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -120px;
+  }
+}
+@-moz-keyframes water-animation {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -120px;
+  }
+}
+@-o-keyframes water-animation {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -120px;
+  }
+}
+@keyframes water-animation {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -120px;
+  }
+}
