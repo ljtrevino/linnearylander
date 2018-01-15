@@ -1,10 +1,10 @@
 
 
 <!--
-Copyright (c) 2018 by LRylander (https://codepen.io/lrylander/pen/rpKVjx)
+Copyright (c) 2018 by LRylander (https://codepen.io/lrylander/pen/mpjrdy)
 
 
-Fork of an original work by Kevin Jannis (https://codepen.io/kevinjannis/pen/aIcsy)
+Fork of an original work by lemmin (https://codepen.io/lemmin/pen/bqNBpK)
 
 
 
