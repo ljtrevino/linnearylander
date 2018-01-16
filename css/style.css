@@ -70,7 +70,7 @@ body{
   -moz-animation: water-animation 3s linear infinite;
   -o-animation: water-animation 3s linear infinite;
   animation: water-animation 3s linear infinite;
-  position: absolute;
+  position: fixed; /*absolute*/
   left: 0;
   bottom: 0;
   width: 111.9%;
@@ -120,34 +120,34 @@ body{
 
 @-webkit-keyframes water-animation {
   0% {
-    left: 0px;
+    left: -120px;
   }
   100% {
-    left: -120px;
+    left: 0px;
   }
 }
 @-moz-keyframes water-animation {
   0% {
-    left: 0px;
+    left: -120px;
   }
   100% {
-    left: -120px;
+    left: 0px;
   }
 }
 @-o-keyframes water-animation {
   0% {
-    left: 0px;
+    left: -120px;
   }
   100% {
-    left: -120px;
+    left: 0px;
   }
 }
 @keyframes water-animation {
   0% {
-    left: 0px;
+    left: -120px;
   }
   100% {
-    left: -120px;
+    left: 0px;
   }
 }
 
@@ -163,9 +163,9 @@ body{
 
 /* GRASS */
 .floor {
-  position: absolute;
-  width: 500%;
-  height: 400px;
+  position: fixed;
+  height: 50%;
+  width:100%;
   bottom: calc(0px);
   left: calc(0px);
   
