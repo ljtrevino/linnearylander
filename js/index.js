@@ -29,3 +29,11 @@ function resize() {
   
   dummy_x = last_pane.getBoundingClientRect().left+window.scrollY;
 }
+
+function scaleit(){
+    if (document.getElementById('stata').className === 'scaleUp'){
+      document.getElementById('stata').className ='scaleDown';
+    }else{
+      document.getElementById('stata').className ='scaleUp';
+    }
+  };
