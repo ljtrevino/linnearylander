@@ -73,6 +73,7 @@ body{
   position: fixed; /*absolute*/
   left: 0;
   bottom: 0;
+  width: 111.9%;
   height: 40%;
   text-align: center;
   white-space: nowrap;
