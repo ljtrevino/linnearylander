@@ -410,6 +410,29 @@ img {
 }
 
 
+.blackout{ 
+  margin-left:198.5%;
+  width:100px; height:100px;  
+  position :absolute; 
+  left:50%; top:50%; transform: translate(-50%,-50%);
+  border:7px solid rgba(0,0,0,0.95);
+  border-radius:50%;
+  border-width:5000px;
+  z-index:100000;
+  
+  
+    animation-name: blackout;
+    animation-duration: 4s;
+}
+
+@keyframes blackout {
+    from {width: 2000px;
+          height: 2000px;}
+    to {width: 200;
+        height: 200}
+}
+
+
 
 
 /* SAILBOATS */
