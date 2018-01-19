@@ -9,13 +9,13 @@ window.onscroll = function () {
   page.scrollLeft = -y;
   
   // Looping Scroll.
-  var diff = window.scrollY - dummy_x;
-  if (diff > 0) {
-    window.scrollTo(0, diff);
-  }
-  else if (window.scrollY == 0) {
-    window.scrollTo(0, dummy_x);
-  }
+ // var diff = window.scrollY - dummy_x;
+  //if (diff > 0) {
+ //   window.scrollTo(0, diff);
+ // }
+ // else if (window.scrollY == 0) {
+ //   window.scrollTo(0, dummy_x);
+  //}
 }
 // Adjust the body height if the window resizes.
 window.onresize = resize;
