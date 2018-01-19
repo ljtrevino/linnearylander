@@ -31,19 +31,13 @@ function resize() {
 }
 
 function scaleit(){
-    //if (document.getElementById('stata').className === 'scaleUp'){
-    //  document.getElementById('stata').className ='scaleDown';
-    //}else{
-    //  document.getElementById('stata').className ='scaleUp';
-    //}
+
 
     setTimeout(function () {
-   window.location.href = "https://s.codepen.io/lrylander/debug/LegGJa/XBkGRoYxxOwA"; //REPLACE WITH REAL LINK
+   window.location.href = "http://lrylander.github.com/linnearylander/inside.html"; //REPLACE WITH REAL LINK
 }, 5000);
 
     document.getElementById('blackout').className ='blackout'
 
   };
 
-
-   //will call the function after 2 secs.
