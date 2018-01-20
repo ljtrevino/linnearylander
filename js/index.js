@@ -34,7 +34,7 @@ function scaleit(){
 
 
     setTimeout(function () {
-   window.location.href = "http://lrylander.github.com/linnearylander/inside.html"; //REPLACE WITH REAL LINK
+   window.location.href = "http://lrylander.github.io/linnearylander/inside.html"; //REPLACE WITH REAL LINK
 }, 5000);
 
     document.getElementById('blackout').className ='blackout'
