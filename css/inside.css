@@ -10,7 +10,7 @@
 
 html, body {
   background: #5665aa;
-  width: 160%;
+  width: 170%;
   height: 100%;
   font-family: "PT Sans", sans-serif;
 }
@@ -370,7 +370,7 @@ html, body {
 }
 
 #posters{
-  width: 170%;
+  width: 260%;
   height: 65%;
   position: absolute;
   transform: translate(1000px,0);
@@ -379,7 +379,7 @@ html, body {
 .poster{
   position:relative;
   height: 78%;
-  width:12.4%;
+  width:8%;
   margin-left:30px;
   top:10%;
   background: #5665aa;
@@ -444,6 +444,35 @@ html, body {
   width:3.5%;
   margin-left:30px;
   top:10%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  float:left;
+  border-radius:5px;
+}
+
+#poster-awards{
+  background: url("https://image.ibb.co/dkSv7R/Bungee_PROJECTS.png") no-repeat; 
+   background-size: 60%;
+  position:relative;
+  height: 78%;
+  width:3.5%;
+  margin-left:30px;
+  top:10%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  float:left;
+  border-radius:5px;
+}
+
+
+
+.window{
+  position:relative;
+  height: 90%;
+  width:25%;
+  margin-left:10%;
+  margin-right:2%;
+  top:5%;
   overflow-y: hidden;
   overflow-x: hidden;
   float:left;
@@ -527,13 +556,239 @@ iframe {
   position: absolute;
 }
 
-.window{
+/*.window{
   position:relative;
   height: 96%;
   margin-left:220px;
   top:2%;
   float:right;
   border-radius:5px;
+}*/
+
+
+
+.pendulum {
+  position: absolute;
+  bottom: 40%;
+  right: -117%;
+  transform: scale(1.7);
+  align-self: right;
+}
+.pendulum .base {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: #a88b6b;
+  width: 400px;
+  height: 20px;
+  border-radius: 10px 10px 0 0;
+}
+.pendulum .rack {
+  position: absolute;
+  z-index: 10;
+  top: -110px;
+  left: 50%;
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  border: solid 5px #909090;
+  border-bottom: none;
+  border-radius: 15px 15px 0 0;
+  transform: translate(-50%, 0);
+}
+.pendulum .balls {
+  position: absolute;
+  top: -105px;
+  left: 0;
+  width: 250px;
+  margin-left: -125px;
 }
 
+#newton1{
+  background: url("http://svgur.com/i/55h.svg");
+}
+
+#newton2{
+  background: url("http://svgur.com/i/54y.svg");
+}
+
+#newton3{
+  background: url("http://svgur.com/i/562.svg");
+}
+
+#newton4{
+  background: url("http://svgur.com/i/56B.svg");
+}
+
+#newton5{
+  background: url("http://svgur.com/i/54z.svg");
+}
+
+
+.pendulum .balls > div {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: 120px;
+  background-size:auto;
+  transform-origin: 50% -120px;
+  animation: 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite alternate middle-ball;
+}
+.pendulum .balls > div:first-child {
+  animation: 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite alternate left-ball;
+}
+.pendulum .balls > div:last-child {
+  animation: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) infinite alternate right-ball;
+}
+.pendulum .balls > div:nth-child(1) {
+  left: 0%;
+}
+.pendulum .balls > div:nth-child(2) {
+  left: 20%;
+}
+.pendulum .balls > div:nth-child(3) {
+  left: 40%;
+}
+.pendulum .balls > div:nth-child(4) {
+  left: 60%;
+}
+.pendulum .balls > div:nth-child(5) {
+  left: 80%;
+}
+.pendulum .balls > div::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  height: 120px;
+  width: 1px;
+  background: #333;
+}
+@-moz-keyframes left-ball {
+  0% {
+    transform: rotate(40deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@-webkit-keyframes left-ball {
+  0% {
+    transform: rotate(40deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@-o-keyframes left-ball {
+  0% {
+    transform: rotate(40deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes left-ball {
+  0% {
+    transform: rotate(40deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@-moz-keyframes middle-ball {
+  0% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+@-webkit-keyframes middle-ball {
+  0% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+@-o-keyframes middle-ball {
+  0% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+@keyframes middle-ball {
+  0% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+@-moz-keyframes right-ball {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+@-webkit-keyframes right-ball {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+@-o-keyframes right-ball {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+@keyframes right-ball {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+
+h1{
+  font-family: 'Bungee', cursive;
+font-family: 'Bungee Inline', cursive;
+}
 
