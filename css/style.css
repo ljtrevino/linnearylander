@@ -28,37 +28,27 @@ body{
 
 /* CONTAINER */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/*@media (min-width: 768px) and (max-width: 1024px) {
   .container {
     -moz-transform: scale(0.8, 0.8);
-    /* Moz-browsers */
     zoom: 0.8;
-    /* Other non-webkit browsers */
-    zoom: 80%;
-    /* Webkit browsers */
+    zoom: 80%;\
   }
 }
 @media (min-width: 420px) and (max-width: 798px) {
   .container {
     -moz-transform: scale(0.5, 0.5);
-    /* Moz-browsers */
     zoom: 0.5;
-    /* Other non-webkit browsers */
     zoom: 50%;
-    /* Webkit browsers */
   }
 }
 @media (min-width: 100px) and (max-width: 420px) {
   .container {
     -moz-transform: scale(0.3, 0.3);
-    /* Moz-browsers */
     zoom: 0.3;
-    /* Other non-webkit browsers */
     zoom: 30%;
-    /* Webkit browsers */
   }
-}
-
+}*/
 
 
 
@@ -72,7 +62,7 @@ body{
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 111.9%;
+  width: 130%;
   height: 40%;
   text-align: center;
   white-space: nowrap;
@@ -577,8 +567,12 @@ h1.custom-pink {
   text-transform: uppercase;
 }
 
-
-
+#proj1{
+  visibility: visible;
+}
+#proj2{
+  visibility: hidden;
+}
 
 
 #welcome{
@@ -818,5 +812,154 @@ lesshat-selector {
 
 
 
+@media (max-height:765px) and (min-height:670px) and (min-width:1360px){
+#welcome{
+  top: -13%;
+}
 
+#subtitle{
+  top: 10%;
+}
+
+img{
+  bottom: calc(200px);
+}
+
+#greenbuilding{
+      bottom: calc(200px);
+}
+
+#BG{
+  top: 20px;
+}
+
+#BG-grad{
+  visibility: hidden;
+}
+
+#MIT-grad{
+  visibility: hidden;
+}
+
+#MIT{
+  top: 100px;
+}
+
+#stata{
+    bottom: calc(-55px);
+    transform: scale(1.3);
+}
+
+#arrow{
+  transform: scale(.2) translate(1600px,900px);
+}
+
+#projAward{
+  transform: translate(-900px,-400px) scale(.9);
+}
+
+h1.custom-green{
+    font-size: 3.4em;
+
+}
+
+#mccormick{
+      bottom: calc(220px);
+}
+
+#hobbies{
+  top: -100px;
+  transform: translate(-610px) scale(.85);
+}
+
+#maseeh{
+  bottom: calc(210px);
+}
+
+#contact{
+    top: -80px;
+    font-size: 3.3em;
+    transform: translate(260px);
+}
+}
+
+
+/*IPAD PORTRAIT*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+h1.custom-purple{
+      font-size: 2.9em;
+      transform: translate(15px,150px);
+}
+#subtitle{
+  top: 100px;
+}
+img{
+  width: 98%;
+  margin-left: 10px;
+  transform: translate(0px);
+}
+#greenbuilding{
+    /*width: 300px;*/
+    width: 420px;
+    transform: translate(-40px);
+}
+#proj2{
+  visibility: visible;
+  text-align: center;
+  font-size: 4.5em;
+}
+#proj1{
+  visibility: hidden;
+}
+
+#education{
+      top: -100px;/*top: -90px;*/
+      transform: translate(-55%);
+      font-size: 1em;
+}
+#BG{
+transform: translate(-180px,-45px);/*transform: translate(-75px,-35px);*/
+font-size: 4.7em;
+}
+#BG-grad{
+  transform: translate(112px,-30px);
+  font-size: 4.7em;
+}
+#projAward{
+  transform: translate(-700px,-630px);
+}
+#water > span:after{
+      bottom: 25%;
+}
+#MIT{
+      transform: translate(170px);
+      font-size: 3.8em;
+}
+#MIT-grad{
+  transform: translate(100px,0px);
+}
+#arrow{
+  transform: scale(.2) translate(1500px,1100px);
+}
+#mccormick{
+  width: 70%;
+  transform: translate(20px);
+}
+#maseeh{
+  width: 45%;
+  transform: translate(40px);
+}
+#hobbies{
+  font-size: 3.5em;
+      transform: translate(-350px,500px);
+}
+#contact{
+  font-size: 3.5em;
+      transform: translate(220px,300px);
+}
+#buildingstata{
+      transform: translate(-50px);
+}
+}
 
