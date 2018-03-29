@@ -983,75 +983,87 @@ h1.custom-purple {font-size: 9vw;}
 
 
 /*EDUCATION*/
-@media only screen and (min-device-height : 690px) and (max-device-height : 790px) and (min-device-width : 915px){
+@media only screen and (min-height : 690px) and (max-height : 790px) and (min-width : 915px){
 #education{transform: translate(-17vw,-21.5vh) scale(1);}
 }
 
 
 /*TREES*/
-@media only screen and (min-device-height : 725px) and (max-device-height : 805px) and (min-device-width : 915px){
+@media only screen and (min-height : 725px) and (max-height : 805px) and (min-width : 915px){
 .Tree{transform: translate(0vw,-19vh) scale(0.85);}
 }
 
 
-@media only screen and (min-device-height : 690px) and (max-device-height : 725px) and (min-device-width : 915px){
+@media only screen and (min-height : 690px) and (max-height : 725px) and (min-width : 915px){
 .Tree{transform: translate(0vw,-19vh) scale(0.72);}
-#buttonbox{visibility: hidden;}
 }
 
-@media only screen and (min-device-height : 665px) and (max-device-height : 690px) and (min-device-width : 915px){
+@media only screen and (min-height : 665px) and (max-height : 690px) and (min-width : 915px){
 .Tree{transform: translate(0vw,-20vh) scale(0.71);}
 #buttonbox{visibility: hidden;}
 }
 
-@media only screen and (min-device-height : 648px) and (max-device-height : 665px) and (min-device-width : 915px){
+@media only screen and (min-height : 648px) and (max-height : 665px) and (min-width : 915px){
 .Tree{transform: translate(0vw,-20vh) scale(0.65);}
 #buttonbox{visibility: hidden;}
 }
 
-@media only screen and (min-device-height : 600px) and (max-device-height : 648px) and (min-device-width : 915px){
+@media only screen and (max-height : 648px) and (min-width : 915px){
 #dome{transform: translate(0,4vh)scale(.9);}
 .Tree{transform: translate(0vw,-20vh) scale(0.65);}
-#buttonbox{visibility: hidden;}
 }
 
-@media only screen and (max-device-width : 1175px) and (min-device-height : 500px){
+@media only screen and (max-width : 1175px) and (min-height : 500px){
   h1.custom-purple {font-size: 9vw;}
   #sub{font-size:4vw;}
   #buttonbox{visibility: hidden;}
 }
 
-@media only screen and (min-device-height : 1100px){
+@media only screen and (min-height : 1100px){
 #buildingstata{transform: translate(5vw,9vh) scale(1.2)}
 
 }
 
-@media only screen and (max-device-width : 1226px){
+@media only screen and (max-width : 1226px){
 #greenbuilding{width:33vw;}
-#buttonbox{visibility: hidden;}
+#buttonbox{transform: translateY(75vh);}
 }
 
-@media only screen and (min-device-width : 1430px){
+@media only screen and (min-width : 1430px){
 #buttonbox{transform: translateY(60vh);}
 #dome{transform: translateY(5vh);}
 }
 
 
-@media only screen and (min-device-height : 940px) and (max-device-height : 1050px) and (min-device-width : 800px) and (max-device-width : 1200px){
+@media only screen and (min-height : 940px) and (max-height : 1050px) and (min-width : 800px) and (max-width : 1200px){
   #forest{transform: translateY(-2vh);}
   }
 
-@media only screen and (min-device-height : 1050px) and (max-device-height : 1185px) and (min-device-width : 800px) and (max-device-width : 1200px){
+@media only screen and (min-height : 1050px) and (max-height : 1185px) and (min-width : 800px) and (max-device-width : 1200px){
   #forest{transform: translateY(0vh);}
   }
 
-@media only screen and (min-device-height : 1185px) and (max-device-height : 1350px) and (min-device-width : 800px) and (max-device-width : 1200px){
+@media only screen and (min-height : 1185px) and (max-height : 1350px) and (min-width : 800px) and (max-width : 1200px){
   #forest{transform: translateY(2vh);}
   }
 
-@media only screen and (min-device-height : 1350px) and (max-device-width : 1200px){
+@media only screen and (min-height : 1350px) and (max-width : 1200px){
   #forest{transform: translateY(5vh);}
   }
+
+@media only screen and (min-height : 1350px) and (max-width : 1200px){
+  #forest{transform: translateY(5vh);}
+  }
+@media only screen and (max-height : 650px) and (min-width: 1000px){
+  #forest{transform: translateY(-5vh);}
+  #dome{transform: translateY(3vh);}
+  #buttonbox{transform: translateY(75vh);}
+  .floor{height:50vh;}
+  #water{height:25vh;}
+  #education{transform: translate(-17vw,-23.5vh) scale(.75);}
+  #welcome{transform: translate(0vw,-33vh) scale(.9);}
+}
+
 /*////////////////////////////////////////////////*/
 /* -----------   iPhone Landscape     ----------- */
 /*////////////////////////////////////////////////*/
@@ -1150,6 +1162,7 @@ h1.custom-purple {font-size: 9vw;}
 #buildingstata{transform: translate(5vw,12vh) scale(1.2);}
 #forest{visibility: hidden;}
 #dome{transform: translateY(-8vh) scale(1.2);}
+#linnea{font-size: 2.8em}
 }
 
 
@@ -1162,6 +1175,7 @@ h1.custom-purple {font-size: 9vw;}
 #buildingstata{transform: translate(5vw,12vh) scale(1.2);}
 #forest{visibility: hidden;}
 #dome{transform: translateY(-8vh) scale(1.2);}
+#linnea{font-size: 2.8em}
 }
 
 
@@ -1175,6 +1189,7 @@ h1.custom-purple {font-size: 9vw;}
 #buildingstata{transform: translate(5vw,12vh) scale(1.2);}
 #forest{visibility: hidden;}
 #dome{transform: translateY(-8vh) scale(1.2);}
+#linnea{font-size: 2.8em}
 }
 
 /*////////////////////////////////////////////////*/
@@ -1229,4 +1244,5 @@ h1.custom-purple {font-size: 9vw;}
 #buildingstata{transform: translate(5vw,12vh) scale(1.2);}
 #forest{visibility: hidden;}
 #dome{transform: translateY(-8vh) scale(1.2);}
+
 }
