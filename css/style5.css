@@ -899,9 +899,9 @@ h1.custom-purple {font-size: 9vw;}
 /* -----------   iPhone Landscape     ----------- */
 /*////////////////////////////////////////////////*/
 
-@media only screen and (max-device-height : 415px) and (max-device-width : 815px){
-  h1.custom-purple#linnea{font-size: 3vw;}
-  h1.custom-purple#sub{font-size: 1vw;transform: translateY(8vh);}
+@media only screen and (max-device-height : 515px) and (max-device-width : 815px){
+  h1.custom-purple#linnea{font-size: 5vw;}
+  h1.custom-purple#sub{font-size: 2.5vw;transform: translateY(8vh);}
   #dome{width: 58vw;margin-left: -29vw;transform:translateY(-2vh);}
   #forest{transform: translate(0vh,-12vh) scale(0.6);}
   #leftTree{left:-25%;}
