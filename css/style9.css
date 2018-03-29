@@ -1030,10 +1030,11 @@ h1.custom-purple {font-size: 9vw;}
 #buttonbox{visibility: hidden;}
 }
 
-@media only screen and (max-device-width : 1450px) and (min-device-width : 1430px) and (max-device-height : 740px) and (min-device-width : 720px){
-#buttonbox{transform: translateY(60vh);}
-#dome{transform: translateY(2vh);}
+/*@media only screen and (max-device-width : 1175px) and (max-device-height : 810px){
+#buttonbox{visibility: hidden;}
+  }*/
 }
+
 /*////////////////////////////////////////////////*/
 /* -----------   iPhone Landscape     ----------- */
 /*////////////////////////////////////////////////*/
