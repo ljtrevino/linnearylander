@@ -944,15 +944,16 @@ button.perspective:active:after {
 
 /* Portrait */
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-height: 1024px) 
+  and (min-device-width: 765px) 
+  and (max-device-height: 1030px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
 h1.custom-purple {font-size: 9vw;}
 h1.custom-green {font-size: 5em;}
 #buildingstata{transform: translate(-2vw,10vh) scale(1.37);}
-
+#forest{transform: translateY(3vh);}
+#education{transform: translate(-15vw,-28vh) scale(.9)}
 }
 
 /* Landscape */
@@ -1030,10 +1031,27 @@ h1.custom-purple {font-size: 9vw;}
 #buttonbox{visibility: hidden;}
 }
 
-@media only screen and (max-device-width : 1450px) and (min-device-width : 1430px) and (max-device-height : 740px) and (min-device-width : 720px){
+@media only screen and (min-device-width : 1430px){
 #buttonbox{transform: translateY(60vh);}
-#dome{transform: translateY(2vh);}
+#dome{transform: translateY(5vh);}
 }
+
+
+@media only screen and (min-device-height : 940px) and (max-device-height : 1050px) and (min-device-width : 800px) and (max-device-width : 1200px){
+  #forest{transform: translateY(-2vh);}
+  }
+
+@media only screen and (min-device-height : 1050px) and (max-device-height : 1185px) and (min-device-width : 800px) and (max-device-width : 1200px){
+  #forest{transform: translateY(0vh);}
+  }
+
+@media only screen and (min-device-height : 1185px) and (max-device-height : 1350px) and (min-device-width : 800px) and (max-device-width : 1200px){
+  #forest{transform: translateY(2vh);}
+  }
+
+@media only screen and (min-device-height : 1350px) and (max-device-width : 1200px){
+  #forest{transform: translateY(5vh);}
+  }
 /*////////////////////////////////////////////////*/
 /* -----------   iPhone Landscape     ----------- */
 /*////////////////////////////////////////////////*/
