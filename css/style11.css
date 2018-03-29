@@ -1054,7 +1054,7 @@ h1.custom-purple {font-size: 9vw;}
 @media only screen and (min-height : 1350px) and (max-width : 1200px){
   #forest{transform: translateY(5vh);}
   }
-@media only screen and (max-height : 650px) and (min-width: 1000px){
+@media only screen and (max-device-height : 650px) and (min-device-width: 1000px){
   #forest{transform: translateY(-5vh);}
   #dome{transform: translateY(3vh);}
   #buttonbox{transform: translateY(75vh);}
