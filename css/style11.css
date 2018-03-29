@@ -1025,7 +1025,7 @@ h1.custom-purple {font-size: 9vw;}
 }
 
 @media only screen and (max-width : 1226px){
-#greenbuilding{width:33vw;}
+/*#greenbuilding{width:33vw;}*/
 #buttonbox{transform: translateY(75vh);}
 }
 
@@ -1062,6 +1062,8 @@ h1.custom-purple {font-size: 9vw;}
   #water{height:25vh;}
   #education{transform: translate(-17vw,-23.5vh) scale(.75);}
   #welcome{transform: translate(0vw,-33vh) scale(.9);}
+  #buildingstata{transform: translate(3vw,2vh) scale(1);}
+  #arrow{transform: scale(.2) translate(95vw,270vh);}
 }
 
 /*////////////////////////////////////////////////*/
