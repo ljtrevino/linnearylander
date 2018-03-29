@@ -821,7 +821,7 @@ lesshat-selector {
   margin-left:-35vw;
 }
 
-*, *:before, *:after {
+*:before, *:after {
   box-sizing: border-box;
 }
 

@@ -41,6 +41,7 @@ function scaleit(){
 
   };
 
-function sendEmail() {
+function sendEmail() 
+{
     window.location = "mailto:linnearylander@gmail.com";
-};
+}
