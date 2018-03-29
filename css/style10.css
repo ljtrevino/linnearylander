@@ -362,13 +362,13 @@ img {
 
 #maseeh {
     width:35vw;
-    transform: translate(28vw,-5vh);
+    transform: translate(26vw,-2vh);
     margin-left: 0vw;
 }
 
 #mccormick {
     width:50vw;
-    transform: translate(-27vw,-5vh);
+    transform: translate(-27vw,-3vh);
     margin-left: 0vw;
 }
 
@@ -807,7 +807,7 @@ lesshat-selector {
   position:relative;
   font-size: 8vw;
   z-index: 999999999999;
-  transform: translate(10vw,-40vh);
+  transform: translate(8vw,-40vh);
 
 
 }
