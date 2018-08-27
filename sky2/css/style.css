@@ -20,7 +20,7 @@ body {
   height: 800px;
   position: fixed;
   z-index: -1;
-  min-height: 4000px;
+  min-height: 5000px;
 }
 
 #hero-mobile {
@@ -88,7 +88,7 @@ h1.custom-orange {
 .education {
   position: absolute;
   font-size: 3.5vw;
-  transform: translate(40vw, -3vh);
+  transform: translate(40vw, 0vh);
   text-shadow: 1px 1px #e07f0f, 2px 2px #e07f0f, 3px 3px #e07f0f, 4px 4px #e07f0f, 5px 5px #e07f0f, 6px 6px #e07f0f, 7px 7px #e07f0f, 8px 8px #e07f0f, 9px 9px #e07f0f, 10px 10px #e07f0f;
 }
 
@@ -101,7 +101,7 @@ h1.custom-orange {
 }
 
 #exp {
-  transform: translate(40vw, 100vh);
+  transform: translate(40vw, 80vh);
   width: 60vw;
 }
 
@@ -113,7 +113,7 @@ h1.custom-orange {
 }
 
 #exp2 {
-  transform: translate(40vw, 200vh);
+  transform: translate(40vw, 160vh);
   width: 60vw;
 }
 
