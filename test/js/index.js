@@ -54,6 +54,8 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 500);
 });
 
+var width = document.body.clientWidth;
+
 function home(){
     window.scrollTo(0, 0);
 }
@@ -63,26 +65,25 @@ function resume(){
 }
 
 function education(){
-    window.scrollTo(0, 1600);
+    window.scrollTo(0, width*0.97);
 }
 
 function experience(){
-    window.scrollTo(0, 1600);
+    window.scrollTo(0, width*0.97);
 }
 
 function projects(){
-    window.scrollTo(0, 3240);
+    window.scrollTo(0, width*1.94);
 }
 
 function awards(){
-    window.scrollTo(0, 3240);
+    window.scrollTo(0, width*1.94);
 }
 
 function hobbies(){
-    window.scrollTo(0, 4800);
+    window.scrollTo(0, width*2.93);
 }
 
 function contact(){
-    window.scrollTo(0, 6000);
+    window.scrollTo(0, width*10);
 }
-
