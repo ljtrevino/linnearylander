@@ -34,8 +34,8 @@ function scaleit(){
 
 
     setTimeout(function () {
-   window.location.href = "http://lrylander.github.io/linnearylander/inside.html"; //REPLACE WITH REAL LINK
-}, 5000);
+   window.location.href = "http://127.0.0.1:50627/inside.html"; //REPLACE WITH REAL LINK
+}, 2000);
 
     document.getElementById('blackout').className ='blackout'
 
@@ -86,4 +86,8 @@ function hobbies(){
 
 function contact(){
     window.scrollTo(0, width*10);
+}
+
+function sky(){
+    window.location = 'http://127.0.0.1:50627/sky/index.html'
 }

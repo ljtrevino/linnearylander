@@ -80,6 +80,6 @@ var scene = new ScrollMagic.Scene({
 
 $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() == $(document).height()) {
-     $(location).attr('href', 'https://lrylander.github.io/linnearylander/#greenbuilding')
+     $(location).attr('href', 'http://127.0.0.1:50627/index.html')
    }
 });

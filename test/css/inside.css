@@ -10,7 +10,7 @@
 
 html, body {
   background: #5665aa;
-  width: 170%;
+  width: 150%;
   height: 100%;
   font-family: "PT Sans", sans-serif;
 }
@@ -370,7 +370,7 @@ html, body {
 }
 
 #posters{
-  width: 260%;
+  width: 150%;
   height: 65%;
   position: absolute;
   transform: translate(1000px,0);
@@ -379,7 +379,7 @@ html, body {
 .poster{
   position:relative;
   height: 78%;
-  width:8%;
+  width: 13%;
   margin-left:30px;
   top:10%;
   background: #5665aa;
@@ -387,32 +387,6 @@ html, body {
   overflow-x: hidden;
   float:left;
   border-radius:10px;
-}
-
-.small_cookie {
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  background-image: url("https://s32.postimg.org/9vultjo11/xxxxyarn.png");
-  background-size: 25% 25%;
-}
-
-.main_cookie {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  background-image: url("https://s31.postimg.org/owwhl2r8r/avatar.png");
-  background-size: 100% 100%;
-  transform: translate(-34%,16%);
-}
-
-#crochet-container{
-  position: absolute;
-  top: 30%;/*12*/
-  left: calc(40%);
-  max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
 }
 
 .poster:hover{
@@ -428,13 +402,6 @@ html, body {
     transform: scale(1.1);
   
 }
-
-
- #crochet-poster{
-     background: url("https://s32.postimg.org/imm0d4a0l/blah.jpg") no-repeat; 
-   background-size: 700%;
-  }
-
 
 #poster-projects{
   background: url("https://image.ibb.co/dkSv7R/Bungee_PROJECTS.png") no-repeat; 
@@ -466,19 +433,6 @@ html, body {
 
 
 
-.window{
-  position:relative;
-  height: 90%;
-  width:25%;
-  margin-left:10%;
-  margin-right:2%;
-  top:5%;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  float:left;
-  border-radius:5px;
-}
-
 
 #SWE-poster img{
   width:92%;
@@ -492,6 +446,27 @@ html, body {
 }
 
 
+#street-poster{
+   background: #2B3E50;
+   background-size: 700%;
+  }
+#street-poster img{
+  width:92%;
+  margin:4%;
+  top:20%;
+  position: absolute;
+}
+
+#linnear-poster{
+   background: #9fcc41;
+   background-size: 700%;
+  }
+#linnear-poster img{
+  width:92%;
+  margin:4%;
+  top:25%;
+  position: absolute;
+}
 
 /*Planet*/
 

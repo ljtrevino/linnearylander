@@ -290,13 +290,6 @@ html {
   right: calc(7%);
 }
 
-#a{
-
-}
-
-#b{
-
-}
 
 
 .Tree {
@@ -489,7 +482,7 @@ img {
 #greenbuilding{
     width: 33vh;
     transform: translate(10vw);
-  
+    cursor: pointer;
 }
 
 
@@ -525,7 +518,7 @@ img {
   
   
     animation-name: blackout;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 
 @keyframes blackout {
@@ -720,6 +713,7 @@ h1.custom-pink {
   z-index: 999999999999;
   text-align: center;
   transform: translate(-17vw,-23vh) scale(1.1);
+  cursor: pointer;
 }
 
 #schools{

@@ -108,6 +108,12 @@ TweenMax.to('.R-D,.R-T',40,{rotation:360,repeat:-1,ease:Linear.easeNone});
 TweenMax.to('#core',1.5,{scale:0.95,repeat:-1,yoyo:true,ease:Sine.easeInOut});
 
 
+$(window).scroll(function() {
+   if($(document).width() - ($(window).scrollLeft() + $(window).width()) == 0) {
+     $(location).attr('href', 'http://127.0.0.1:50627/index.html')
+   }
+});
+
 
 
 
