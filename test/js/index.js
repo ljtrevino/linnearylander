@@ -34,7 +34,7 @@ function scaleit(){
 
 
     setTimeout(function () {
-   window.location.href = "http://127.0.0.1:50627/inside.html"; //REPLACE WITH REAL LINK
+   window.location.href = "https://lrylander.github.io/linnearylander/inside.html"; //REPLACE WITH REAL LINK
 }, 2000);
 
     document.getElementById('blackout').className ='blackout'
