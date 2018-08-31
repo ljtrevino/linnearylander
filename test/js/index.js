@@ -89,5 +89,5 @@ function contact(){
 }
 
 function sky(){
-    window.location = 'http://127.0.0.1:50627/sky/index.html'
+    window.location = 'https://lrylander.github.io/linnearylander/sky/index.html'
 }
