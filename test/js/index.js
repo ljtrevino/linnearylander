@@ -34,7 +34,7 @@ function scaleit(){
 
 
     setTimeout(function () {
-   window.location.href = "https://lrylander.github.io/linnearylander/inside.html"; //REPLACE WITH REAL LINK
+   window.location.href = "https://lrylander.github.io/linnearylander/test/inside.html"; //REPLACE WITH REAL LINK
 }, 2000);
 
     document.getElementById('blackout').className ='blackout'
@@ -89,5 +89,5 @@ function contact(){
 }
 
 function sky(){
-    window.location = 'https://lrylander.github.io/linnearylander/sky/index.html'
+    window.location = 'https://lrylander.github.io/linnearylander/test/sky/index.html'
 }
