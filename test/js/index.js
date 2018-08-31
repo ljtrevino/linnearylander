@@ -91,3 +91,4 @@ function contact(){
 function sky(){
     window.location = 'https://lrylander.github.io/linnearylander/test/sky/index.html'
 }
+

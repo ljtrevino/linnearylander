@@ -110,7 +110,7 @@ TweenMax.to('#core',1.5,{scale:0.95,repeat:-1,yoyo:true,ease:Sine.easeInOut});
 
 $(window).scroll(function() {
    if($(document).width() - ($(window).scrollLeft() + $(window).width()) == 0) {
-     $(location).attr('href', 'http://127.0.0.1:50627/index.html')
+     $(location).attr('href', 'https://lrylander.github.io/linnearylander/test/index.html')
    }
 });
 
