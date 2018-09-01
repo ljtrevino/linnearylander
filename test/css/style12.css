@@ -145,7 +145,7 @@ html {
     position: relative;
     bottom: 0;
     margin-left:0;
-    transform: translate(5vw,2vh) scale(1.2); /*ONLY FOR LARGE SCREENS --- DO FOR MASEEH AND MCCORMICK TOO*/
+    transform: translate(5vw,2vh) scale(1); /*ONLY FOR LARGE SCREENS --- DO FOR MASEEH AND MCCORMICK TOO*/
 }
 
 #stata{
@@ -781,7 +781,7 @@ transform: translate(-297px,20px);
   position:relative;
   font-size: calc(1.7vw);
   z-index: 999999999999;
-  transform: translate(7vw,-43vh);
+  transform: translate(12vw,-42vh);
 }
 
 #arrow{
