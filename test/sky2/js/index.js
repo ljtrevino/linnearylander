@@ -20,7 +20,7 @@
 
 var svg = $('#Layer_1'),
   plane = $('.plane'),
-  pathString = $("#lisaPath").attr('d'),
+  pathString = $("#balloonPath").attr('d'),
   lisaPath = Snap.path.toCubic(pathString),
   arrayPath = [];
 
@@ -80,6 +80,10 @@ var scene = new ScrollMagic.Scene({
 
 $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() == $(document).height()) {
-     $(location).attr('href', 'https://lrylander.github.io/linnearylander/#greenbuilding')
+     $(location).attr('href', 'https://lrylander.github.io/linnearylander/test/index.html')
    }
 });
+
+function sessionStore(){
+    sessionStorage["previousPage"] = "sky"; 
+}
