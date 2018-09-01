@@ -35,7 +35,7 @@ h1 {
 }
 
 #hero {
-  min-height: 3200px;
+  min-height: 400vh;
 }
 
 .layer-bg {
@@ -64,11 +64,10 @@ h1 {
 .floor {
   position: absolute;
   width: 100%;
-  height: 5vh;
+  height: 10vh;
   bottom: calc(0px);
   left: calc(0px);
   background-image: linear-gradient(to top, #8CC152 50px, #8CC152 50px);
-  /*grass color*/
 }
 
 #greenbuilding {
