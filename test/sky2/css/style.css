@@ -35,7 +35,7 @@ h1 {
 }
 
 #hero {
-  min-height: 400vh;
+  min-height: 3000px;
 }
 
 .layer-bg {
@@ -64,10 +64,11 @@ h1 {
 .floor {
   position: absolute;
   width: 100%;
-  height: 10vh;
+  height: 5vh;
   bottom: calc(0px);
   left: calc(0px);
   background-image: linear-gradient(to top, #8CC152 50px, #8CC152 50px);
+  /*grass color*/
 }
 
 #greenbuilding {
@@ -159,113 +160,11 @@ h1.custom-orange {
   position: absolute;
   z-index: 10;
   width: 30vw;
-  max-width: 450px;
-  margin-left: 7vw;
+  max-width: 400px;
 }
 
 #Layer_1 {
   fill: none;
   position: absolute;
   max-width: 726px;
-}
-
-.global-wrapper {
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-.global-wrapper aside {
-  position: relative;
-  width: 80px;
-  float: left;
-  text-align: center;
-  line-height: 26px;
-  height: 100%;
-  transition: all 0.3s ease-in-out;
-  margin-left: 20px;
-  margin-top: 0px;
-  font-size: 1em;
-  z-index: 10;
-  font-weight: 700;
-  font-family: 'Lato', sans-serif;
-}
-.global-wrapper aside ul {
-  list-style: none;
-  padding-left: 0px;
-  position: fixed;
-  text-align: left;
-}
-.global-wrapper aside ul li {
-  padding: 2vh 0 1vh 0;
-  cursor: pointer;
-}
-.global-wrapper aside ul li:hover i {
-  color: white !important;
-  opacity: 0.5;
-}
-.global-wrapper aside ul li:hover span {
-  opacity: 0.1;
-}
-.global-wrapper aside ul li .nav-item {
-  display: inline-block;
-  width: 30px;
-  overflow: hidden;
-  height: 30px;
-  transition: width 0.3s ease-in-out;
-  white-space: nowrap;
-  color: white; /*CHANGED*/
-}
-.global-wrapper aside ul li .nav-item i {
-  opacity: 0;
-  float: left;
-  position: relative;
-  top: -3px;
-  color: white;
-  font-size: 30px;
-}
-.global-wrapper aside ul li .nav-item #menu {
-  opacity: 1;
-}
-.global-wrapper aside ul li .nav-item span {
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
-}
-.global-wrapper aside ul:nth-child(3) {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-.global-wrapper aside:hover {
-  width: 170px;
-  margin-left: 20px;
-  transition: all 0.3s ease-in-out;
-}
-.global-wrapper aside:hover .nav-item {
-  display: inline-block;
-  width: 150px;
-  overflow: hidden;
-  height: 30px;
-  transition: all 0.3s ease-in-out;
-}
-.global-wrapper aside:hover .nav-item i {
-  opacity: 1;
-  float: left;
-}
-.global-wrapper aside:hover .nav-item span {
-  opacity: 1;
-  transition: all 0.5s ease-in-out;
-}
-.global-wrapper aside:hover ~ #main {
-  width: calc(100% - 302px);
-  transition: all 0.3s ease-in-out;
-}
-.global-wrapper aside:hover ~ #main #blackout-on-hover {
-  position: absolute;
-  background: black;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  opacity: .5;
-  transition: opacity 0.3s ease-in-out;
 }
