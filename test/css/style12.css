@@ -1128,7 +1128,7 @@ h1.custom-purple {font-size: 9vw;}
 }
 
 @media only screen and (min-height : 1100px){
-#buildingstata{transform: translate(5vw,9vh) scale(1.2)}
+#buildingstata{transform: translate(5vw,20vh) scale(1.2)}
 
 }
 
