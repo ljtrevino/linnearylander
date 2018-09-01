@@ -617,7 +617,7 @@ h1.custom-green {
 h1.custom-orange {
   font-family: 'Righteous', cursive;
   font-weight: 900;
-  font-size: 4em;
+  font-size: 350%;
   text-align: left;
   color: #f9a23e;
   text-shadow: 1px 1px #e07f0f, 2px 2px #e07f0f, 3px 3px #e07f0f, 4px 4px #e07f0f, 5px 5px #e07f0f, 6px 6px #e07f0f, 7px 7px #e07f0f, 8px 8px #e07f0f, 9px 9px #e07f0f, 10px 10px #e07f0f;
