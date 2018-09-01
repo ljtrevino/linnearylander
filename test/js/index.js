@@ -89,7 +89,7 @@ function contact(){
 }
 
 function sky(){
-    window.location = 'https://lrylander.github.io/linnearylander/test/sky/index.html'
+    window.location = 'https://lrylander.github.io/linnearylander/test/sky2/index.html'
 }
 
 //if (screen.width <= 699) {
