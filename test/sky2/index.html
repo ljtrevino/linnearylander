@@ -10,11 +10,79 @@
 
       <link rel="stylesheet" href="css/style.css">
 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
   
 </head>
 
 <body onload="sessionStore()">
+    <section class='global-wrapper' ng-controller="ctrl">
+    <aside>
+			<!--top nav -->
+			<ul>
+                <li>
+					<div class="nav-item">
+						<i class="material-icons" id="menu">menu</i>
+						<span></span>
+					</div>
+				</li>
+				<li class="active">
+					<div class="nav-item" onclick="home()">
+						<i class="material-icons">home</i>
+						<span>&nbsp;&nbsp;Home</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="resume()">
+						<i class="material-icons">description</i>
+						<span>&nbsp;&nbsp;Resume PDF</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="education()">
+						<i class="material-icons">school</i>
+						<span>&nbsp;&nbsp;Education</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="experience()">
+						<i class="material-icons">business_center</i>
+						<span>&nbsp;&nbsp;Experience</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="projects()">
+						<i class="material-icons">code</i>
+						<span>&nbsp;&nbsp;Projects</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="awards()">
+						<i class="material-icons">star</i>
+						<span>&nbsp;&nbsp;Awards</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="hobbies()">
+						<i class="material-icons">music_note</i>
+						<span>&nbsp;&nbsp;Hobbies</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="contact()">
+						<i class="material-icons">mail</i>
+						<span>&nbsp;&nbsp;Contact</span>
+					</div>
+				</li>
+			</ul>
 
+		</aside> 
+    
+    
+    
   <div id='hero'>
   <div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
   <div id='content'></div>
@@ -128,7 +196,7 @@
   
 
 
-
+      
 
 <div id='hero-mobile'></div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
@@ -140,10 +208,17 @@
   
 
     <script  src="js/index.js"></script>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js'></script>
 
 
     </div>
-
+    </section>
 </body>
 
 </html>

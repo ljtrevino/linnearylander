@@ -1,6 +1,6 @@
 
 function updatePath(){
-  sessionStorage["previousPage"] = "sky";    
+  sessionStorage["previousPage"] = "education";    
     
   var width = document.body.clientWidth;
   if (width < 1500){

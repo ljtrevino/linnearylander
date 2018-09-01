@@ -17,11 +17,73 @@
 
       <link rel="stylesheet" href="css/inside.css">
 
-  
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
 </head>
 
 <body onload="sessionStore()">
+<section class='global-wrapper' ng-controller="ctrl">
+    <aside>
+			<!--top nav -->
+			<ul>
+                <li>
+					<div class="nav-item">
+						<i class="material-icons" id="menu">menu</i>
+						<span></span>
+					</div>
+				</li>
+				<li class="active">
+					<div class="nav-item" onclick="home()">
+						<i class="material-icons">home</i>
+						<span>&nbsp;&nbsp;Home</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="resume()">
+						<i class="material-icons">description</i>
+						<span>&nbsp;&nbsp;Resume PDF</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="education()">
+						<i class="material-icons">school</i>
+						<span>&nbsp;&nbsp;Education</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="experience()">
+						<i class="material-icons">business_center</i>
+						<span>&nbsp;&nbsp;Experience</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="projects()">
+						<i class="material-icons">code</i>
+						<span>&nbsp;&nbsp;Projects</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="awards()">
+						<i class="material-icons">star</i>
+						<span>&nbsp;&nbsp;Awards</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="hobbies()">
+						<i class="material-icons">music_note</i>
+						<span>&nbsp;&nbsp;Hobbies</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="contact()">
+						<i class="material-icons">mail</i>
+						<span>&nbsp;&nbsp;Contact</span>
+					</div>
+				</li>
+			</ul>
 
+		</aside> 
   
 
 
@@ -226,7 +288,7 @@
     <script src="js/inside.js"></script>
 
 
-
+    </section>
 
 </body>
 

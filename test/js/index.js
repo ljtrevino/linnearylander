@@ -96,10 +96,25 @@ function sky(){
 //document.location = "https://lrylander.github.io/linnearylander/test/mobile";
 //}
 function checkPrevious(){
-if (sessionStorage["previousPage"] == "sky"){
+if (sessionStorage["previousPage"] == "home"){
+    home();
+}
+if (sessionStorage["previousPage"] == "education"){
     education();
 }
-if (sessionStorage["previousPage"] == "stata"){
+if (sessionStorage["previousPage"] == "experience"){
+    experience();
+}
+if (sessionStorage["previousPage"] == "projects"){
     projects();
+}
+if (sessionStorage["previousPage"] == "awards"){
+    awards();
+}
+if (sessionStorage["previousPage"] == "hobbies"){
+    hobbies();
+}
+if (sessionStorage["previousPage"] == "contact"){
+    contact();
 }
 }
