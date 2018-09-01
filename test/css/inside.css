@@ -10,7 +10,7 @@
 
 html, body {
   background: #5665aa;
-  width: 180%;
+  width: 190%;
   height: 100%;
   font-family: "PT Sans", sans-serif;
 }
@@ -370,7 +370,7 @@ html, body {
 }
 
 #posters{
-  width: 250%;
+  width: 300%;
   height: 65%;
   position: absolute;
   transform: translate(1000px,0);
@@ -379,7 +379,7 @@ html, body {
 .poster{
   position:relative;
   height: 78%;
-  width: 8%;
+  width: 7%;
   margin-left:30px;
   top:10%;
   background: #5665aa;
@@ -518,7 +518,7 @@ html, body {
 #web-poster img{
   width:100%;
   margin:0%;
-  top:-4%;
+  top:0%;
   position: absolute;
 }
 

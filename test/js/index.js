@@ -92,3 +92,7 @@ function sky(){
     window.location = 'https://lrylander.github.io/linnearylander/test/sky/index.html'
 }
 
+if (screen.width <= 699) {
+document.location = "https://lrylander.github.io/linnearylander/test/mobile";
+}
+
