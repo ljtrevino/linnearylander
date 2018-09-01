@@ -617,7 +617,7 @@ h1.custom-green {
 h1.custom-orange {
   font-family: 'Righteous', cursive;
   font-weight: 900;
-  font-size: 350%;
+  font-size: 4em;
   text-align: left;
   color: #f9a23e;
   text-shadow: 1px 1px #e07f0f, 2px 2px #e07f0f, 3px 3px #e07f0f, 4px 4px #e07f0f, 5px 5px #e07f0f, 6px 6px #e07f0f, 7px 7px #e07f0f, 8px 8px #e07f0f, 9px 9px #e07f0f, 10px 10px #e07f0f;
@@ -627,7 +627,6 @@ h1.custom-orange {
 h1.custom-purple {
   font-family: 'Righteous', cursive;
   font-weight: 900;
-  /*font-size: 4em;*/
   font-size: calc(3em);
   color: #bf92d1;
   text-shadow: 1px 1px #694c75, 2px 2px #694c75, 3px 3px #694c75, 4px 4px #694c75, 5px 5px #694c75, 6px 6px #694c75, 7px 7px #694c75, 8px 8px #694c75, 9px 9px #694c75, 10px 10px #694c75;
@@ -709,7 +708,7 @@ h1.custom-pink {
 #education{
   font-family: 'Righteous', cursive;
   position:absolute;
-  font-size: .85em;
+  font-size: calc(1.7vw);
   z-index: 999999999999;
   text-align: center;
   transform: translate(-17vw,-23vh) scale(1.1);
