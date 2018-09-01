@@ -115,5 +115,7 @@ $(window).scroll(function() {
 });
 
 
-
+function sessionStore(){
+    sessionStorage["previousPage"] = "stata"; 
+}
 

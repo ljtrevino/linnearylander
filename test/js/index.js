@@ -99,4 +99,7 @@ function checkPrevious(){
 if (sessionStorage["previousPage"] == "sky"){
     education();
 }
+if (sessionStorage["previousPage"] == "stata"){
+    projects();
+}
 }
