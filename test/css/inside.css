@@ -518,6 +518,12 @@ html, body {
    background-size: 100%;
    background-repeat: repeat;
   }
+#web-poster img{
+  width:100%;
+  margin:0%;
+  top:0%;
+  position: absolute;
+}
 
 /*Planet*/
 
