@@ -145,6 +145,7 @@ html {
     position: relative;
     bottom: 0;
     margin-left:0;
+    cursor: pointer;
     transform: translate(5vw,2vh) scale(1); /*ONLY FOR LARGE SCREENS --- DO FOR MASEEH AND MCCORMICK TOO*/
 }
 
@@ -471,12 +472,14 @@ img {
     width:35vw;
     transform: translate(26vw,-2vh);
     margin-left: 0vw;
+    cursor: pointer;
 }
 
 #mccormick {
     width:50vw;
     transform: translate(-27vw,-3vh);
     margin-left: 0vw;
+    cursor: pointer;
 }
 
 #greenbuilding{
@@ -671,9 +674,7 @@ h1.custom-pink {
 
 #proj1{
   visibility: visible;
-}
-#proj2{
-  visibility: hidden;
+    cursor: pointer;
 }
 
 
@@ -715,65 +716,6 @@ h1.custom-pink {
   cursor: pointer;
 }
 
-#schools{
-  font-family: 'Righteous', cursive;
-  position:relative;
-  top:10%;
-  font-size: .32em;
-  z-index: 999999999999;
-  /*transform: translate(-200px);*/transform: translate(100px,-110px);
-}
-
-.smaller{
-  font-size: .7em;
-  top:8%;
-}
-
-#BG{
-  font-family: 'Righteous', cursive;
-  position:absolute;
-  top:10px;
-  font-size: 3.7em;
-  z-index: 999999999999;
-  /*transform: translate(-65px);*/transform: translate(-6.5vw);
-}
-
-#BG-grad{
-  font-family: 'Righteous', cursive;    
-  transform: translate(-200px,70px);
-    font-size: 4.7em;
-  top:40px;
-  z-index: 999999999999;
-
-}
-
-#BG-grad2{
-      transform: translate(-296px,30px);
-}
-
-
-#MIT{
-  font-family: 'Righteous', cursive;
-  position: relative;
-  font-size: 3.7em;
-  z-index: 999999999999;
-    transform: translate(-96px,10px);
-  /*transform: translate(-65px);*/
-}
-
-#MIT-grad{
-  font-family: 'Righteous', cursive;
-  position:absolute;
-  font-size: 5em;
-  top:220px;
-  z-index: 999999999999;
-
-  /*transform: translate(-60px);*/transform: translate(-70px,-50px);
-}
-#MIT-grad2{
-transform: translate(-297px,20px);
-
-  }
 
 #projAward{
   font-family: 'Righteous', cursive;
@@ -781,124 +723,9 @@ transform: translate(-297px,20px);
   font-size: calc(1.7vw);
   z-index: 999999999999;
   transform: translate(12vw,-42vh);
+  cursor: pointer;
 }
 
-#arrow{
-      transform: scale(.2) translate(95vw,230vh);
-  z-index: 999999;
-}
-
-
-
-.box {
-  position: relative;
-  background-color: #A8A8A8;
-  width: 200px;
-  height: 100px;
-  display: inline-block;
-  -webkit-border-radius: 10% / 100%;
-  -moz-border-radius: 10% / 100%;
-  border-radius: 10% / 100%;
-  -webkit-border-bottom-left-radius: 0;
-  -moz-border-radius-bottomleft: 0;
-  border-bottom-left-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius-bottomright: 0;
-  -moz-background-clip: padding;
-  border-bottom-right-radius: 0;
-  background-clip: padding-box;
-  transform: translate(-150px,-0px) scale(.7);
-  z-index: 100;
-}
-.box:after {
-  position: absolute;
-  content: " ";
-  height: 90px;
-  width: 40px;
-  background-color: #757575;
-  right: 5px;
-  top: 5px;
-  -webkit-border-radius: 50% / 100%;
-  -moz-border-radius: 50% / 100%;
-  border-radius: 50% / 100%;
-  -webkit-border-bottom-left-radius: 0;
-  -moz-border-radius-bottomleft: 0;
-  border-bottom-left-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius-bottomright: 0;
-  -moz-background-clip: padding;
-  border-bottom-right-radius: 0;
-  background-clip: padding-box;
-}
-.rod {
-  height: 80px;
-  width: 5px;
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
-  display: inline-block;
-  background-color: #dbd3d3;
-  /* .rotate(-90deg) */
-  -webkit-transform-origin: bottom center;
-  -moz-transform-origin: bottom center;
-  -ms-transform-origin: bottom center;
-  -o-transform-origin: bottom center;
-  transform-origin: bottom center;
-  -webkit-animation: pop 3s linear;
-  -moz-animation: pop 3s linear;
-  -o-animation: pop 3s linear;
-  animation: pop 3s linear;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-.rod:after {
-  position: absolute;
-  content: " ";
-  right: 100%;
-  top: 2%;
-  width: 20px;
-  height: 16px;
-  background: #d15f63;
-}
-.rod:before {
-  position: absolute;
-  bottom: 0;
-  border-radius: 50%;
-  content: " ";
-  width: 15px;
-  height: 15px;
-  background: #dbd3d3;
-  -webkit-transform: translate(-50%, 50%);
-  -moz-transform: translate(-50%, 50%);
-  -ms-transform: translate(-50%, 50%);
-  -o-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-lesshat-selector {
-  -lh-property: 0; } 
-@-webkit-keyframes pop{ 0%{ -webkit-transform: rotate(-90deg);} 95%{ -webkit-transform: rotate(-90deg);} 100%{ -webkit-transform: rotate(0deg); }}
-@-moz-keyframes pop{ 0%{ -moz-transform: rotate(-90deg);} 95%{ -moz-transform: rotate(-90deg);} 100%{ -moz-transform: rotate(0deg); }}
-@-o-keyframes pop{ 0%{ -o-transform: rotate(-90deg);} 95%{ -o-transform: rotate(-90deg);} 100%{ -o-transform: rotate(0deg); }}
-@keyframes pop{ 0%{-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);transform: rotate(-90deg);} 95%{-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);transform: rotate(-90deg);} 100%{-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg); }}
-[not-existing] {
-  zoom: 1;
-}
-
-.post {
-  position: absolute;
-  content: " ";
-  right: -241.5%;
-  bottom: 285px;
-  width: 15px;
-  height: 150px;
-  background: #c38f5b;
-  z-index: 99;
-
-}
 
 #hobbies{
   font-family: 'Righteous', cursive;
@@ -906,6 +733,7 @@ lesshat-selector {
   font-size: 8vw;
   z-index: 999999999999;
   transform: translate(-11vw,-40vh);
+  cursor: pointer;
   
 }
 
@@ -915,6 +743,7 @@ lesshat-selector {
   font-size: 8vw;
   z-index: 999999999999;
   transform: translate(8vw,-40vh);
+  cursor: pointer;
 
 
 }
