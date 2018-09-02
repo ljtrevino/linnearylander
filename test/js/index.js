@@ -92,7 +92,7 @@ function sky(){
     window.location = 'https://lrylander.github.io/linnearylander/test/sky2/index.html'
 }
 
-function hobbies(){
+function mccormick(){
     window.location = 'https://lrylander.github.io/linnearylander/test/hobbies/index.html'
 }
 
