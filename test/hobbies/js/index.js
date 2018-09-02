@@ -1,12 +1,12 @@
 
-//$(window).scroll(function() {
-//   if($(window).scrollTop() + $(window).height() == $(document).height()) {
-//     $(location).attr('href', 'https://lrylander.github.io/linnearylander/test/index.html')
-//   }
-//});
+$(window).scroll(function() {
+   if($(window).scrollTop() + $(window).height() == $(document).height()) {
+     $(location).attr('href', 'https://lrylander.github.io/linnearylander/test/index.html')
+   }
+});
 
 function sessionStore(){
-    sessionStorage["previousPage"] = "education"; 
+    sessionStorage["previousPage"] = "hobbies"; 
 }
 
 function home(){
