@@ -92,6 +92,10 @@ function sky(){
     window.location = 'https://lrylander.github.io/linnearylander/test/sky2/index.html'
 }
 
+function hobbies(){
+    window.location = 'https://lrylander.github.io/linnearylander/test/hobbies/index.html'
+}
+
 //if (screen.width <= 699) {
 //document.location = "https://lrylander.github.io/linnearylander/test/mobile";
 //}
