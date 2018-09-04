@@ -1,3 +1,16 @@
+
+
+function mobile_detect(mobile,tablet,mobile_redirect,tablet_redirect) {
+ var ismobile = (/iphone|ipod|android|blackberry|opera mini|opera mobi|skyfire|maemo|windows phone|palm|iemobile|symbian|symbianos|fennec/i.test(navigator.userAgent.toLowerCase()));
+ var istablet = (/ipad|android 3|sch-i800|playbook|tablet|kindle|gt-p1000|sgh-t849|shw-m180s|a510|a511|a100|dell streak|silk/i.test(navigator.userAgent.toLowerCase()));
+
+ if (ismobile && mobile==true) {
+ window.location.href = 'https://lrylander.github.io/linnearylander/mobile/'
+ } else if (istablet && tablet==true) {
+ window.location.href = 'https://lrylander.github.io/linnearylander/mobile/'
+ }
+}
+
 var page = document.getElementById('page');
 var last_pane = page.getElementsByClassName('pane');
 last_pane = last_pane[last_pane.length-1];
@@ -45,3 +58,46 @@ function sendEmail()
 {
     window.location = "mailto:linnearylander@gmail.com";
 }
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+
+function home(){
+    window.scrollTo(0, 0);
+}
+
+function resume(){
+    window.location = window.location.href.replace('index.html','') + 'Linnea_Rylander_Resume.pdf';
+}
+
+function education(){
+    window.scrollTo(0, 1600);
+}
+
+function experience(){
+    window.scrollTo(0, 1600);
+}
+
+function projects(){
+    window.scrollTo(0, 3240);
+}
+
+function awards(){
+    window.scrollTo(0, 3240);
+}
+
+function hobbies(){
+    window.scrollTo(0, 4800);
+}
+
+function contact(){
+    window.scrollTo(0, 6000);
+}
+
+
+
