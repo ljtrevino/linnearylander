@@ -34,7 +34,7 @@ function scaleit(){
 
 
     setTimeout(function () {
-   window.location.href = "https://lrylander.github.io/linnearylander/inside.html"; //REPLACE WITH REAL LINK
+   window.location.href = "https://lrylander.github.io/linnearylander/test/inside.html"; //REPLACE WITH REAL LINK
 }, 2000);
 
     document.getElementById('blackout').className ='blackout'
@@ -89,15 +89,15 @@ function contact(){
 }
 
 function sky(){
-    window.location = 'https://lrylander.github.io/linnearylander/sky2/index.html'
+    window.location = 'https://lrylander.github.io/linnearylander/test/sky2/index.html'
 }
 
 function mccormick(){
-    window.location = 'https://lrylander.github.io/linnearylander/hobbies/index.html'
+    window.location = 'https://lrylander.github.io/linnearylander/test/hobbies/index.html'
 }
 
 //if (screen.width <= 699) {
-//document.location = "https://lrylander.github.io/linnearylander/mobile";
+//document.location = "https://lrylander.github.io/linnearylander/test/mobile";
 //}
 function checkPrevious(){
 if (sessionStorage["previousPage"] == "home"){
