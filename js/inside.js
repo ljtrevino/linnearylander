@@ -97,7 +97,7 @@ TweenMax.to('#core',1.5,{scale:0.95,repeat:-1,yoyo:true,ease:Sine.easeInOut});
 
 $(window).scroll(function() {
    if($(document).width() - ($(window).scrollLeft() + $(window).width()) == 0) {
-     $(location).attr('href', 'https://lrylander.github.io/linnearylander/test/index.html')
+     $(location).attr('href', 'https://lrylander.github.io/linnearylander/index.html')
    }
 });
 
@@ -109,41 +109,41 @@ function sessionStore(){
 
 function home(){
     sessionStorage["previousPage"] = "home"; 
-    window.location = "https://lrylander.github.io/linnearylander/test";
+    window.location = "https://lrylander.github.io/linnearylander";
 }
 
 function resume(){
     sessionStorage["previousPage"] = "home"; 
-    window.location = "https://lrylander.github.io/linnearylander/test";
-    window.location = "https://lrylander.github.io/linnearylander/test/" + 'Linnea_Rylander_Resume.pdf';
+    window.location = "https://lrylander.github.io/linnearylander";
+    window.location = "https://lrylander.github.io/linnearylander" + 'Linnea_Rylander_Resume.pdf';
 }
 
 function education(){
     sessionStorage["previousPage"] = "education"; 
-    window.location = "https://lrylander.github.io/linnearylander/test";
+    window.location = "https://lrylander.github.io/linnearylander";
 }
 
 function experience(){
     sessionStorage["previousPage"] = "experience"; 
-    window.location = "https://lrylander.github.io/linnearylander/test";
+    window.location = "https://lrylander.github.io/linnearylander";
 }
 
 function projects(){
     sessionStorage["previousPage"] = "projects"; 
-    window.location = "https://lrylander.github.io/linnearylander/test";
+    window.location = "https://lrylander.github.io/linnearylander";
 }
 
 function awards(){
     sessionStorage["previousPage"] = "awards"; 
-    window.location = "https://lrylander.github.io/linnearylander/test";
+    window.location = "https://lrylander.github.io/linnearylander";
 }
 
 function hobbies(){
     sessionStorage["previousPage"] = "hobbies"; 
-    window.location = "https://lrylander.github.io/linnearylander/test";
+    window.location = "https://lrylander.github.io/linnearylander";
 }
 
 function contact(){
     sessionStorage["previousPage"] = "contact"; 
-    window.location = "https://lrylander.github.io/linnearylander/test";
+    window.location = "https://lrylander.github.io/linnearylander";
 }

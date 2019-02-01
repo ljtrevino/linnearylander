@@ -92,7 +92,7 @@ var scene = new ScrollMagic.Scene({
 
 $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() == $(document).height()) {
-     $(location).attr('href', 'https://lrylander.github.io/linnearylander/test/index.html')
+     $(location).attr('href', 'https://lrylander.github.io/linnearylander/index.html')
    }
 });
 
