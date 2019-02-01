@@ -48,7 +48,7 @@ html {
   height: 100%;
   transition: all 0.3s ease-in-out;
   margin-left: 20px;
-  margin-top: 0px;
+  margin-top: calc(50vh - 300px);
   font-size: .5em;
   z-index: 10;
   font-weight: 700;
@@ -61,7 +61,7 @@ html {
   text-align: left;
 }
 .global-wrapper aside ul li {
-  padding: 2vh 0 1vh 0;
+  padding: 20px 0 10px 0;
   cursor: pointer;
 }
 .global-wrapper aside ul li:hover i {
@@ -81,15 +81,10 @@ html {
   color: white; /*CHANGED*/
 }
 .global-wrapper aside ul li .nav-item i {
-  opacity: 0;
   float: left;
   position: relative;
   top: -3px;
-  color: white;
   font-size: 30px;
-}
-.global-wrapper aside ul li .nav-item #menu {
-  opacity: 1;
 }
 .global-wrapper aside ul li .nav-item span {
   opacity: 0;
@@ -114,7 +109,6 @@ html {
   transition: all 0.3s ease-in-out;
 }
 .global-wrapper aside:hover .nav-item i {
-  opacity: 1;
   float: left;
 }
 .global-wrapper aside:hover .nav-item span {
@@ -145,8 +139,7 @@ html {
     position: relative;
     bottom: 0;
     margin-left:0;
-    cursor: pointer;
-    transform: translate(5vw,2vh) scale(1); /*ONLY FOR LARGE SCREENS --- DO FOR MASEEH AND MCCORMICK TOO*/
+    transform: translate(5vw,2vh) scale(1.2); /*ONLY FOR LARGE SCREENS --- DO FOR MASEEH AND MCCORMICK TOO*/
 }
 
 #stata{
@@ -291,6 +284,13 @@ html {
   right: calc(7%);
 }
 
+#a{
+
+}
+
+#b{
+
+}
 
 
 .Tree {
@@ -472,20 +472,18 @@ img {
     width:35vw;
     transform: translate(26vw,-2vh);
     margin-left: 0vw;
-    cursor: pointer;
 }
 
 #mccormick {
     width:50vw;
     transform: translate(-27vw,-3vh);
     margin-left: 0vw;
-    cursor: pointer;
 }
 
 #greenbuilding{
     width: 33vh;
     transform: translate(10vw);
-    cursor: pointer;
+  
 }
 
 
@@ -521,7 +519,7 @@ img {
   
   
     animation-name: blackout;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 @keyframes blackout {
@@ -630,6 +628,7 @@ h1.custom-orange {
 h1.custom-purple {
   font-family: 'Righteous', cursive;
   font-weight: 900;
+  /*font-size: 4em;*/
   font-size: calc(3em);
   color: #bf92d1;
   text-shadow: 1px 1px #694c75, 2px 2px #694c75, 3px 3px #694c75, 4px 4px #694c75, 5px 5px #694c75, 6px 6px #694c75, 7px 7px #694c75, 8px 8px #694c75, 9px 9px #694c75, 10px 10px #694c75;
@@ -674,7 +673,9 @@ h1.custom-pink {
 
 #proj1{
   visibility: visible;
-    cursor: pointer;
+}
+#proj2{
+  visibility: hidden;
 }
 
 
@@ -709,23 +710,196 @@ h1.custom-pink {
 #education{
   font-family: 'Righteous', cursive;
   position:absolute;
-  font-size: calc(1.7vw);
+  font-size: .85em;
   z-index: 999999999999;
   text-align: center;
   transform: translate(-17vw,-23vh) scale(1.1);
-  cursor: pointer;
 }
 
+#schools{
+  font-family: 'Righteous', cursive;
+  position:relative;
+  top:10%;
+  font-size: .32em;
+  z-index: 999999999999;
+  /*transform: translate(-200px);*/transform: translate(100px,-110px);
+}
+
+.smaller{
+  font-size: .7em;
+  top:8%;
+}
+
+#BG{
+  font-family: 'Righteous', cursive;
+  position:absolute;
+  top:10px;
+  font-size: 3.7em;
+  z-index: 999999999999;
+  /*transform: translate(-65px);*/transform: translate(-6.5vw);
+}
+
+#BG-grad{
+  font-family: 'Righteous', cursive;    
+  transform: translate(-200px,70px);
+    font-size: 4.7em;
+  top:40px;
+  z-index: 999999999999;
+
+}
+
+#BG-grad2{
+      transform: translate(-296px,30px);
+}
+
+
+#MIT{
+  font-family: 'Righteous', cursive;
+  position: relative;
+  font-size: 3.7em;
+  z-index: 999999999999;
+    transform: translate(-96px,10px);
+  /*transform: translate(-65px);*/
+}
+
+#MIT-grad{
+  font-family: 'Righteous', cursive;
+  position:absolute;
+  font-size: 5em;
+  top:220px;
+  z-index: 999999999999;
+
+  /*transform: translate(-60px);*/transform: translate(-70px,-50px);
+}
+#MIT-grad2{
+transform: translate(-297px,20px);
+
+  }
 
 #projAward{
   font-family: 'Righteous', cursive;
   position:relative;
   font-size: calc(1.7vw);
   z-index: 999999999999;
-  transform: translate(12vw,-42vh);
-  cursor: pointer;
+  transform: translate(7vw,-43vh);
 }
 
+#arrow{
+      transform: scale(.2) translate(95vw,230vh);
+  z-index: 999999;
+}
+
+
+
+.box {
+  position: relative;
+  background-color: #A8A8A8;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  -webkit-border-radius: 10% / 100%;
+  -moz-border-radius: 10% / 100%;
+  border-radius: 10% / 100%;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius-bottomright: 0;
+  -moz-background-clip: padding;
+  border-bottom-right-radius: 0;
+  background-clip: padding-box;
+  transform: translate(-150px,-0px) scale(.7);
+  z-index: 100;
+}
+.box:after {
+  position: absolute;
+  content: " ";
+  height: 90px;
+  width: 40px;
+  background-color: #757575;
+  right: 5px;
+  top: 5px;
+  -webkit-border-radius: 50% / 100%;
+  -moz-border-radius: 50% / 100%;
+  border-radius: 50% / 100%;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius-bottomright: 0;
+  -moz-background-clip: padding;
+  border-bottom-right-radius: 0;
+  background-clip: padding-box;
+}
+.rod {
+  height: 80px;
+  width: 5px;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  display: inline-block;
+  background-color: #dbd3d3;
+  /* .rotate(-90deg) */
+  -webkit-transform-origin: bottom center;
+  -moz-transform-origin: bottom center;
+  -ms-transform-origin: bottom center;
+  -o-transform-origin: bottom center;
+  transform-origin: bottom center;
+  -webkit-animation: pop 3s linear;
+  -moz-animation: pop 3s linear;
+  -o-animation: pop 3s linear;
+  animation: pop 3s linear;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.rod:after {
+  position: absolute;
+  content: " ";
+  right: 100%;
+  top: 2%;
+  width: 20px;
+  height: 16px;
+  background: #d15f63;
+}
+.rod:before {
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  content: " ";
+  width: 15px;
+  height: 15px;
+  background: #dbd3d3;
+  -webkit-transform: translate(-50%, 50%);
+  -moz-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  -o-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes pop{ 0%{ -webkit-transform: rotate(-90deg);} 95%{ -webkit-transform: rotate(-90deg);} 100%{ -webkit-transform: rotate(0deg); }}
+@-moz-keyframes pop{ 0%{ -moz-transform: rotate(-90deg);} 95%{ -moz-transform: rotate(-90deg);} 100%{ -moz-transform: rotate(0deg); }}
+@-o-keyframes pop{ 0%{ -o-transform: rotate(-90deg);} 95%{ -o-transform: rotate(-90deg);} 100%{ -o-transform: rotate(0deg); }}
+@keyframes pop{ 0%{-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);transform: rotate(-90deg);} 95%{-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);transform: rotate(-90deg);} 100%{-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg); }}
+[not-existing] {
+  zoom: 1;
+}
+
+.post {
+  position: absolute;
+  content: " ";
+  right: -241.5%;
+  bottom: 285px;
+  width: 15px;
+  height: 150px;
+  background: #c38f5b;
+  z-index: 99;
+
+}
 
 #hobbies{
   font-family: 'Righteous', cursive;
@@ -733,7 +907,6 @@ h1.custom-pink {
   font-size: 8vw;
   z-index: 999999999999;
   transform: translate(-11vw,-40vh);
-  cursor: pointer;
   
 }
 
@@ -743,7 +916,6 @@ h1.custom-pink {
   font-size: 8vw;
   z-index: 999999999999;
   transform: translate(8vw,-40vh);
-  cursor: pointer;
 
 
 }
@@ -956,7 +1128,7 @@ h1.custom-purple {font-size: 9vw;}
 }
 
 @media only screen and (min-height : 1100px){
-#buildingstata{transform: translate(5vw,3vh) scale(1.2)}
+#buildingstata{transform: translate(5vw,9vh) scale(1.2)}
 
 }
 

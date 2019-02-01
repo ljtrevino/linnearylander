@@ -1,3 +1,16 @@
+
+
+function mobile_detect(mobile,tablet,mobile_redirect,tablet_redirect) {
+ var ismobile = (/iphone|ipod|android|blackberry|opera mini|opera mobi|skyfire|maemo|windows phone|palm|iemobile|symbian|symbianos|fennec/i.test(navigator.userAgent.toLowerCase()));
+ var istablet = (/ipad|android 3|sch-i800|playbook|tablet|kindle|gt-p1000|sgh-t849|shw-m180s|a510|a511|a100|dell streak|silk/i.test(navigator.userAgent.toLowerCase()));
+
+ if (ismobile && mobile==true) {
+ window.location.href = 'https://lrylander.github.io/linnearylander/mobile/'
+ } else if (istablet && tablet==true) {
+ window.location.href = 'https://lrylander.github.io/linnearylander/mobile/'
+ }
+}
+
 var page = document.getElementById('page');
 var last_pane = page.getElementsByClassName('pane');
 last_pane = last_pane[last_pane.length-1];
@@ -34,8 +47,8 @@ function scaleit(){
 
 
     setTimeout(function () {
-   window.location.href = "https://lrylander.github.io/linnearylander/test/inside.html"; //REPLACE WITH REAL LINK
-}, 2000);
+   window.location.href = "http://lrylander.github.io/linnearylander/inside.html"; //REPLACE WITH REAL LINK
+}, 5000);
 
     document.getElementById('blackout').className ='blackout'
 
@@ -54,8 +67,6 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 500);
 });
 
-var width = document.body.clientWidth;
-
 function home(){
     window.scrollTo(0, 0);
 }
@@ -65,60 +76,28 @@ function resume(){
 }
 
 function education(){
-    window.scrollTo(0, width*0.97);
+    window.scrollTo(0, 1600);
 }
 
 function experience(){
-    window.scrollTo(0, width*0.97);
+    window.scrollTo(0, 1600);
 }
 
 function projects(){
-    window.scrollTo(0, width*1.94);
+    window.scrollTo(0, 3240);
 }
 
 function awards(){
-    window.scrollTo(0, width*1.94);
+    window.scrollTo(0, 3240);
 }
 
 function hobbies(){
-    window.scrollTo(0, width*2.93);
+    window.scrollTo(0, 4800);
 }
 
 function contact(){
-    window.scrollTo(0, width*10);
+    window.scrollTo(0, 6000);
 }
 
-function sky(){
-    window.location = 'https://lrylander.github.io/linnearylander/test/sky2/index.html'
-}
 
-function mccormick(){
-    window.location = 'https://lrylander.github.io/linnearylander/test/hobbies/index.html'
-}
 
-//if (screen.width <= 699) {
-//document.location = "https://lrylander.github.io/linnearylander/test/mobile";
-//}
-function checkPrevious(){
-if (sessionStorage["previousPage"] == "home"){
-    home();
-}
-if (sessionStorage["previousPage"] == "education"){
-    education();
-}
-if (sessionStorage["previousPage"] == "experience"){
-    experience();
-}
-if (sessionStorage["previousPage"] == "projects"){
-    projects();
-}
-if (sessionStorage["previousPage"] == "awards"){
-    awards();
-}
-if (sessionStorage["previousPage"] == "hobbies"){
-    hobbies();
-}
-if (sessionStorage["previousPage"] == "contact"){
-    contact();
-}
-}

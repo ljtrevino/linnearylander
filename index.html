@@ -3,21 +3,6 @@
 
 <head>
     
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  
-
-    <!-- Mobile redirect script-->
-<script type="text/javascript" src="js/redirect.js"></script><script type="text/javascript">// <![CDATA[
-SA.redirection_mobile ({
- mobile_url : "lrylander.github.io/linnearylander/mobile",
-tablet_redirection: "true",
-tablet_host: "lrylander.github.io/linnearylander/mobile",
- });
- 
-// ]]></script>
-    
-    
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83366040-2"></script>
 <script>
@@ -41,67 +26,63 @@ tablet_host: "lrylander.github.io/linnearylander/mobile",
 
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
     
 </head>
 
-<body onload="checkPrevious()">
+<body>
     
 	<section class='global-wrapper' ng-controller="ctrl">
 		<aside>
 			<!--top nav -->
 			<ul>
-                <li>
-					<div class="nav-item">
-						<i class="material-icons" id="menu">menu</i>
-						<span></span>
-					</div>
-				</li>
 				<li class="active">
 					<div class="nav-item" onclick="home()">
 						<i class="material-icons">home</i>
-						<span>&nbsp;&nbsp;Home</span>
+						<span>&nbsp;Homepage</span>
 					</div>
 				</li>
 				<li>
 					<div class="nav-item" onclick="resume()">
 						<i class="material-icons">description</i>
-						<span>&nbsp;&nbsp;Resume PDF</span>
+						<span>&nbsp;Resume PDF</span>
 					</div>
 				</li>
 				<li>
 					<div class="nav-item" onclick="education()">
 						<i class="material-icons">school</i>
-						<span>&nbsp;&nbsp;Education</span>
+						<span>&nbsp;Education</span>
 					</div>
 				</li>
 				<li>
 					<div class="nav-item" onclick="experience()">
 						<i class="material-icons">business_center</i>
-						<span>&nbsp;&nbsp;Experience</span>
+						<span>&nbsp;Experience</span>
 					</div>
 				</li>
 				<li>
 					<div class="nav-item" onclick="projects()">
 						<i class="material-icons">code</i>
-						<span>&nbsp;&nbsp;Projects</span>
+						<span>&nbsp;Projects</span>
 					</div>
 				</li>
 				<li>
 					<div class="nav-item" onclick="awards()">
 						<i class="material-icons">star</i>
-						<span>&nbsp;&nbsp;Awards</span>
+						<span>&nbsp;Awards</span>
 					</div>
 				</li>
 				<li>
 					<div class="nav-item" onclick="hobbies()">
 						<i class="material-icons">music_note</i>
-						<span>&nbsp;&nbsp;Hobbies</span>
+						<span>&nbsp;Hobbies</span>
 					</div>
 				</li>
 				<li>
 					<div class="nav-item" onclick="contact()">
 						<i class="material-icons">mail</i>
-						<span>&nbsp;&nbsp;Contact</span>
+						<span>&nbsp;Contact</span>
 					</div>
 				</li>
 			</ul>
@@ -114,12 +95,6 @@ tablet_host: "lrylander.github.io/linnearylander/mobile",
       <h1 class="custom-blue">(SCROLL TO LEARN MORE)</h1>
   </div>
   <div id="water">
-        <span></span><span></span><span></span><span></span>
-        <span></span><span></span><span></span><span></span>
-        <span></span><span></span><span></span><span></span>
-        <span></span><span></span><span></span><span></span>
-        <span></span><span></span><span></span><span></span>
-        <span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span>
@@ -176,11 +151,9 @@ tablet_host: "lrylander.github.io/linnearylander/mobile",
 
 <div class="pane" id="pane1">
       <div class="floor"></div> 
-    
-    <!-- REPLACE WITH REAL LINK HERE -->
-      <img id="greenbuilding" src="greenbuilding.gif" onclick="sky()"/>
+      <img id="greenbuilding" src="greenbuilding.gif">
             <div id='education'>
-                <h1 id="ed" class="custom-orange" onclick="sky()">EDUCATION & <br> EXPERIENCE</h1>
+                <h1 id="ed" class="custom-orange">EDUCATION & <br> EXPERIENCE</h1>
             </div>
 </div>
   
@@ -189,10 +162,12 @@ tablet_host: "lrylander.github.io/linnearylander/mobile",
 <div class="pane" id="pane2">
     <div class="floor"></div>
     <div id='projAward'>
-        <h1 class="custom-green" id="proj1" onclick="scaleit();"> PROJECTS & AWARDS </h1>
+        <h1 class="custom-green" id="proj1"> PROJECTS & AWARDS </h1>
+        <!-- <h1 class="custom-green" id="proj2"> PROJECTS<br> & AWARDS </h1> -->
     </div>
     <div id="stata">
           <img onclick="scaleit();" id="buildingstata" src="stata.svg">
+          <img src="arrow.svg" id="arrow"/>
     </div>
 </div>
 
@@ -201,10 +176,10 @@ tablet_host: "lrylander.github.io/linnearylander/mobile",
 
 <div class="pane" id="pane3">
     <div class="floor"></div>
-    <h1 class="custom-yellow" id="hobbies" onclick="mccormick()">HOBBIES</h1>
-    <h1 class="custom-pink" id="contact" onclick="sendEmail();">CONTACT</h1>
+    <h1 class="custom-yellow" id="hobbies">HOBBIES</h1>
+    <h1 class="custom-pink" id="contact">CONTACT</h1>
     <img id="maseeh" src="maseeh.svg" onclick="sendEmail();">
-    <img id="mccormick" src="mccormickU.svg" onclick="mccormick()">
+    <img id="mccormick" src="mccormickU.svg">
 <div>
  
 

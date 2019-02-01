@@ -1,15 +1,3 @@
-
-function updatePath(){
-  sessionStorage["previousPage"] = "education";    
-    
-  var width = document.body.clientWidth;
-  if (width < 1500){
-      document.getElementById("balloonPath").setAttribute("d", "m-154.352941,48.24997c0,25.000248 0,31.250309 0,31.250309c218.562589,405.2852 685.435442,535.250145 885.98444,676.143407c200.548996,140.893262 196.676627,516.495732 83.219588,761.254577c-146.376371,268.758557 -616.585438,254.209728 -740.419241,627.961153c-150.212071,638.936072 -146.809364,1020.128904 39.582304,1334.674375c316.091587,412.968066 250.044103,349.777436 252.100425,463.300093");
-      console.log("small")
-  }
-}
-
-
 (function() {
   window.addEventListener('scroll', function(event) {
     var depth, i, layer, layers, len, movement, topDistance, translate3d;
@@ -32,7 +20,7 @@ function updatePath(){
 
 var svg = $('#Layer_1'),
   plane = $('.plane'),
-  pathString = $("#balloonPath").attr('d'),
+  pathString = $("#lisaPath").attr('d'),
   lisaPath = Snap.path.toCubic(pathString),
   arrayPath = [];
 
@@ -92,8 +80,6 @@ var scene = new ScrollMagic.Scene({
 
 $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() == $(document).height()) {
-     $(location).attr('href', 'https://lrylander.github.io/linnearylander/test/index.html')
+     $(location).attr('href', 'https://lrylander.github.io/linnearylander/#greenbuilding')
    }
 });
-
-
