@@ -75,19 +75,6 @@ scrollConverter.activate(function (offset) {
 });
 
 
-
-//CROCHET
-var R = 200 , dur = 15; 
-
-var tl = new TimelineLite()
-.staggerTo(".small_cookie", dur ,{
-bezier:{curviness:1.5,values:[{x:0,y:0},{x:R/2,y:R/2},{x:0,y:R},{x:-R/2,y:R/2},{x:0,y:0}]}
-,rotation:-720,repeat:-1,ease:Power0.easeNone},dur/20)
-.to(".main_cookie", dur ,{rotation:-0,ease:Power0.easeNone,repeat:-1},0)
-.time(dur);
-
-
-
 //logic
 
 
@@ -108,6 +95,55 @@ TweenMax.to('.R-D,.R-T',40,{rotation:360,repeat:-1,ease:Linear.easeNone});
 TweenMax.to('#core',1.5,{scale:0.95,repeat:-1,yoyo:true,ease:Sine.easeInOut});
 
 
+$(window).scroll(function() {
+   if($(document).width() - ($(window).scrollLeft() + $(window).width()) == 0) {
+     $(location).attr('href', 'https://lrylander.github.io/linnearylander/test/index.html')
+   }
+});
 
 
+function sessionStore(){
+    sessionStorage["previousPage"] = "projects"; 
+}
 
+
+function home(){
+    sessionStorage["previousPage"] = "home"; 
+    window.location = "https://lrylander.github.io/linnearylander/test";
+}
+
+function resume(){
+    sessionStorage["previousPage"] = "home"; 
+    window.location = "https://lrylander.github.io/linnearylander/test";
+    window.location = "https://lrylander.github.io/linnearylander/test/" + 'Linnea_Rylander_Resume.pdf';
+}
+
+function education(){
+    sessionStorage["previousPage"] = "education"; 
+    window.location = "https://lrylander.github.io/linnearylander/test";
+}
+
+function experience(){
+    sessionStorage["previousPage"] = "experience"; 
+    window.location = "https://lrylander.github.io/linnearylander/test";
+}
+
+function projects(){
+    sessionStorage["previousPage"] = "projects"; 
+    window.location = "https://lrylander.github.io/linnearylander/test";
+}
+
+function awards(){
+    sessionStorage["previousPage"] = "awards"; 
+    window.location = "https://lrylander.github.io/linnearylander/test";
+}
+
+function hobbies(){
+    sessionStorage["previousPage"] = "hobbies"; 
+    window.location = "https://lrylander.github.io/linnearylander/test";
+}
+
+function contact(){
+    sessionStorage["previousPage"] = "contact"; 
+    window.location = "https://lrylander.github.io/linnearylander/test";
+}

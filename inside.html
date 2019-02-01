@@ -17,60 +17,98 @@
 
       <link rel="stylesheet" href="css/inside.css">
 
-  
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
 </head>
 
-<body>
+<body onload="sessionStore()">
+<section class='global-wrapper' ng-controller="ctrl">
+    <aside>
+			<!--top nav -->
+			<ul>
+                <li>
+					<div class="nav-item">
+						<i class="material-icons" id="menu">menu</i>
+						<span></span>
+					</div>
+				</li>
+				<li class="active">
+					<div class="nav-item" onclick="home()">
+						<i class="material-icons">home</i>
+						<span>&nbsp;&nbsp;Home</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="resume()">
+						<i class="material-icons">description</i>
+						<span>&nbsp;&nbsp;Resume PDF</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="education()">
+						<i class="material-icons">school</i>
+						<span>&nbsp;&nbsp;Education</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="experience()">
+						<i class="material-icons">business_center</i>
+						<span>&nbsp;&nbsp;Experience</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="projects()">
+						<i class="material-icons">code</i>
+						<span>&nbsp;&nbsp;Projects</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="awards()">
+						<i class="material-icons">star</i>
+						<span>&nbsp;&nbsp;Awards</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="hobbies()">
+						<i class="material-icons">music_note</i>
+						<span>&nbsp;&nbsp;Hobbies</span>
+					</div>
+				</li>
+				<li>
+					<div class="nav-item" onclick="contact()">
+						<i class="material-icons">mail</i>
+						<span>&nbsp;&nbsp;Contact</span>
+					</div>
+				</li>
+			</ul>
 
+		</aside> 
   
 
 
 <div id="container">
   
   <div id="posters">
-        <img id="poster-projects" src="https://image.ibb.co/dkSv7R/Bungee_PROJECTS.png"/>
+        <img id="poster-projects" src="projectsbanner.png"/>
 
     
-        <a href="http://linneacrochet.com">
-            <div class="poster" id="crochet-poster">
-                <div id="body">
-                      <div id="crochet-container">
-                            <div class="small_cookie"></div>		    
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>		    
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="small_cookie"></div>
-                            <div class="main_cookie"></div>
-                      </div>
-                  </div>
+        <a href="https://lrylander.github.io/StreetSmarts">
+            <div class="poster" id="street-poster">
+                <img src="street.png"/>
               </div>
            </a>  
   
            <a href="http://swe.mit.edu/members/swecubator">
              <div class="poster" id="SWE-poster">
                
-                  <img src="https://image.ibb.co/fdhpZ6/SWE_Logo_MIT.png"/> 
+                  <img src="SWE_Logo_MIT.png"/> 
                
              </div>
            </a>
     <a href="https://vulturemit.herokuapp.com">         
     <div class="poster" id="vulture-poster">
-      <img src="https://image.ibb.co/nm6spG/151580130440566258.png"/>
+      <img src="vulture.png"/>
       
     </div>
     </a>
@@ -87,23 +125,53 @@
 </div>
             </div>
         </a>
-    <div class="poster" id="othello-poster">
       
-      <iframe src="https://www.youtube.com/embed/YVzfd1TPkAU?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=YVzfd1TPkAU" frameborder="0" allowfullscreen></iframe>
-      
-    </div>
-
-<img id="poster-awards" src="http://svgur.com/i/54t.svg"/>
-
-
-    
-    <a href="http://lrylander.github.io/linnearylander">
-    <img class="window" src="http://svgur.com/i/56C.svg"/>
+    <a href="https://lrylander.github.io/linnear/build/#/6.006/Crib">         
+        <div class="poster" id="linnear-poster">
+            <img src="linnear.png"/>
+        </div>
     </a>
+
+<img id="poster-awards" src="posterawards.svg"/>
+      
+      <a href="http://webdevelopment.mit.edu/2018/contest/winners">         
+        <div class="poster" id="web-poster">
+            <img src="6148IMG.jpg" style="width: 100%;"/>
+        </div>
+          
+    </a>
+      
+    <a href="https://drive.google.com/open?id=1h9jP1VD_WpNSFfFsgwQoPtZMIV5yJt5W">    
+        <div class="poster" id="AWM-poster">
+            <img src="http://math.virginia.edu/img/news_events/awmlogo.gif"/>
+        </div>
+    </a>
+      
+    <a href="https://www.northropgrumman.com/corporateresponsibility/community/pages/engineeringscholars.aspx">    
+        <div class="poster" id="NG-poster">
+            <img src="http://cms.ipressroom.com.s3.amazonaws.com/295/files/20166/Northrop+Grumman+Names+24+Maryland+Winners+in+14th+Annual+Engineering+Scholars+Competition.jpg"/>
+        </div>
+    </a>
+      
+    <a href="http://itfound.org/our-programs/fifty-for-the-future/">    
+        <div class="poster" id="ITF-poster">
+            <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F10420985%2F9664615031%2F1%2Foriginal.png?h=230&w=460&auto=compress&s=0e06bc860c50cf47f867cda1e0bd5b6c"/>
+        </div>
+    </a>
+      
+    <a href="https://www.aspirations.org/awardees">
+            <div class="poster" id="NCWIT-poster">
+                <img src="https://atkaylaleung.files.wordpress.com/2018/01/ncwitaspirationsincomputing_programlogo_4color-01.png"/>
+              </div>
+    </a> 
+      
+    
+
   </div>
 
   <div id="table"></div>
 
+<!--
 
 <div class="pendulum">
   <div class="rack"></div>
@@ -116,6 +184,7 @@
   </div>
   <div class="base"></div>
 </div>
+-->
 
 
   
@@ -136,7 +205,7 @@
   <li>
     <div class="progressbar-title">
       <h3>Java</h3>
-      <div class="lang"><h4>Expert</h4></div>
+      <div class="lang"><h4>Proficient</h4></div>
       <span class="percent" id="java-percent"></span>
     </div>
     <div class="bar-container">
@@ -181,7 +250,7 @@
   <li>
     <div class="progressbar-title">
       <h3>C / C++</h3>
-      <div class="lang"><h4>Novice</h4></div>
+      <div class="lang"><h4>Familiar</h4></div>
       <span class="percent" id="C-percent"></span>
     </div>
     <div class="bar-container">
@@ -206,10 +275,8 @@
   
 
 </div>
-</div>
 
 
-<script src="scroll-converter.min.js"></script>
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
@@ -220,7 +287,7 @@
     <script src="js/inside.js"></script>
 
 
-
+    </section>
 
 </body>
 

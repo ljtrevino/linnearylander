@@ -1,0 +1,170 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  background-color: #45CCFF;
+}
+
+#hero {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  position: fixed;
+  z-index: -1;
+  min-height: 5000px;
+}
+
+#hero-mobile {
+  display: none;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/962688/Cloudsall.png") no-repeat center bottom/contain;
+  height: 320px;
+}
+
+h1 {
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+#hero {
+  min-height: 3000px;
+}
+
+.layer-bg {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/962688/Cloudsall.png");
+}
+
+.layer-1 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/962688/Cloud1.png\a 		");
+  background-position: right center;
+}
+
+.layer-2 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/962688/Cloud2.png");
+}
+
+.layer-3 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/962688/Cloud3.png\a 		");
+  background-position: right center;
+}
+
+.layer-4 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/962688/Cloud1.png\a 		");
+  background-position: 0% 20%;
+}
+
+.floor {
+  position: absolute;
+  width: 100%;
+  height: 5vh;
+  bottom: calc(0px);
+  left: calc(0px);
+  background-image: linear-gradient(to top, #8CC152 50px, #8CC152 50px);
+  /*grass color*/
+}
+
+#greenbuilding {
+  position: absolute;
+  width: 33vh;
+  bottom: calc(-30vh);
+  left: calc(70vw);
+}
+
+h1.custom-orange {
+  font-family: 'Righteous', cursive;
+  font-weight: 900;
+  color: #f9a23e;
+  text-transform: uppercase;
+}
+
+.education {
+  position: absolute;
+  font-size: 3.5vw;
+  transform: translate(40vw, 0vh);
+  text-shadow: 1px 1px #e07f0f, 2px 2px #e07f0f, 3px 3px #e07f0f, 4px 4px #e07f0f, 5px 5px #e07f0f, 6px 6px #e07f0f, 7px 7px #e07f0f, 8px 8px #e07f0f, 9px 9px #e07f0f, 10px 10px #e07f0f;
+}
+
+#schools {
+  font-family: 'Righteous', cursive;
+  position: absolute;
+  font-size: 1.4vw;
+  width: 60vw;
+  text-shadow: .75px .75px #e07f0f, 1.5px 1.5px #e07f0f, 2.25px 2.25px #e07f0f, 3px 3px #e07f0f, 3.75px 3.75px #e07f0f, 4.5px 4.5px #e07f0f, 5.25px 5.25px #e07f0f, 6px 6px #e07f0f, 6.75px 6.75px #e07f0f, 7.5px 7.5px #e07f0f;
+}
+
+#exp {
+  transform: translate(40vw, 80vh);
+  width: 60vw;
+}
+
+#expinfo {
+  font-family: 'Righteous', cursive;
+  position: absolute;
+  font-size: 1.4vw;
+  text-shadow: .75px .75px #e07f0f, 1.5px 1.5px #e07f0f, 2.25px 2.25px #e07f0f, 3px 3px #e07f0f, 3.75px 3.75px #e07f0f, 4.5px 4.5px #e07f0f, 5.25px 5.25px #e07f0f, 6px 6px #e07f0f, 6.75px 6.75px #e07f0f, 7.5px 7.5px #e07f0f;
+}
+
+#exp2 {
+  transform: translate(40vw, 160vh);
+  width: 60vw;
+}
+
+#expinfo2 {
+  font-family: 'Righteous', cursive;
+  position: absolute;
+  font-size: 1.4vw;
+  text-shadow: .75px .75px #e07f0f, 1.5px 1.5px #e07f0f, 2.25px 2.25px #e07f0f, 3px 3px #e07f0f, 3.75px 3.75px #e07f0f, 4.5px 4.5px #e07f0f, 5.25px 5.25px #e07f0f, 6px 6px #e07f0f, 6.75px 6.75px #e07f0f, 7.5px 7.5px #e07f0f;
+}
+
+.smaller {
+  font-size: 2.5vw;
+  text-shadow: 0.5px 0.5px #e07f0f, 1px 1px #e07f0f, 1.5px 1.5px #e07f0f, 2px 2px #e07f0f, 2.5px 2.5px #e07f0f, 3px 3px #e07f0f, 3.5px 3.5px #e07f0f, 4px 4px #e07f0f, 4.5px 4.5px #e07f0f, 5px 5px #e07f0f;
+}
+
+.layer-overlay {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/962688/Cloud.png\a 		");
+  background-position: top center;
+}
+
+.layer-overlay2 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/962688/Cloud.png\a 		");
+  background-position: left center;
+}
+
+@media only screen and (max-width: 768px) {
+  #hero {
+    display: none;
+  }
+
+  #hero-mobile {
+    display: block;
+  }
+}
+.container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+}
+
+.plane {
+  position: absolute;
+  z-index: 10;
+  width: 30vw;
+  max-width: 400px;
+}
+
+#Layer_1 {
+  fill: none;
+  position: absolute;
+  max-width: 726px;
+}
