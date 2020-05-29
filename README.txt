@@ -1,3 +1,4 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/lrylander/pen/mpjrdy.
+# 🎓 MIT Themed Personal Website
 
- 
+## 💻 Github Pages URL
+https://lrylander.github.io/linnearylander/site
